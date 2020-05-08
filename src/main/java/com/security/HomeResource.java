@@ -13,6 +13,15 @@ public class HomeResource {
 		
 	}
 	
+	@GetMapping(value="/users")
+	public void users() {
+		
+	}
+	
+	@GetMapping(value= "/admin")
+	public void admin() {
+		
+	}
 	
 	
 }
